@@ -1,5 +1,5 @@
 # MetricVAE
-Training a metric with distance regularization
+Training a VAE with distance regularization
 
 # Instructions
 
