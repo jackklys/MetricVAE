@@ -18,9 +18,10 @@ Let ![](https://latex.codecogs.com/gif.latex?C) be the classifier.
 Given faces ![](https://latex.codecogs.com/gif.latex?x_1), ![](https://latex.codecogs.com/gif.latex?x_2) we define the distance between them as ![](https://latex.codecogs.com/gif.latex?d_{D}(x_1,x_2)=\Vert&space;C(x_1)-C(x_2)&space;\Vert) where ![](https://latex.codecogs.com/gif.latex?\Vert&space;\cdot&space;\Vert) denotes Euclidean distance.
 
 We then train a VAE on the TFD dataset using the usual loss function along with an additional regularization term which encourages preserving the distance in the latent space.
-We visualize the encoded data (that is the latent space of the VAE) using tsne. 
 
 In the following visualizations the first image corresponds to the model with no distance regularizer.
+
+We visualize the encoded data (that is the latent space of the VAE) using tsne. 
 
 <img src="images/no_dist_reg/latent.png" width="450" height="337" />
 
