@@ -21,7 +21,7 @@ We then train a VAE on the TFD dataset using the usual loss function along with 
 
 In the following visualizations the first image corresponds to the model with no distance regularizer.
 
-We visualize the encoded data (that is the latent space of the VAE) using tsne. 
+A tsne visualization of the encoded data (that is, the latent space of the VAE). 
 
 <img src="images/no_dist_reg/latent.png" width="450" height="337" />
 
