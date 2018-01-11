@@ -54,3 +54,7 @@ Then to obtain the above visulations use
 ```
 experiments.py
 ```
+
+# Acknowledgements
+
+Thanks to Jake Snell for help with some of the above code.
